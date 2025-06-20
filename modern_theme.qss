@@ -1,0 +1,48 @@
+QWidget {
+    background: #f5f6fa;
+    color: #232426;
+    font-family: 'San Francisco', 'Roboto', 'Segoe UI', 'Arial', sans-serif;
+    font-size: 11pt;
+}
+QPushButton {
+    background: #007aff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 18px;
+    border: none;
+    font-weight: 500;
+}
+QPushButton:hover {
+    background: #0055cc;
+}
+QLineEdit, QTextEdit {
+    background: #fff;
+    color: #232426;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 7px;
+    padding: 7px;
+}
+QTableWidget, QTableView {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    color: #232426;
+    selection-background-color: #007aff;
+    selection-color: #fff;
+}
+QMenuBar {
+    background: transparent;
+    color: #232426;
+}
+QMenuBar::item:selected {
+    background: #007aff;
+    color: #fff;
+    border-radius: 7px;
+}
+QToolTip {
+    background-color: #222;
+    color: #fff;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 10pt;
+}
