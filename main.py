@@ -33,7 +33,7 @@ class MainWindow(QMainWindow):
         module_menu = menubar.addMenu("Module")
         for idx, (name, _) in enumerate(self.widgets):
             action = QAction(name, self)
-            action.triggered.connect(lambda checked, i=idx: self.stack.setCurrentIndex(i))
+            action.triggered.connect(lambda i=idx: self.stack.setCurrentIndex(i))
             module_menu.addAction(action)
 
         show_notification(self, "Willkommen!", "Dashboard erfolgreich gestartet!")
