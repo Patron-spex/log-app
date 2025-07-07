@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "log-app",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.testing.pytestArgs": [
+			"log-app"
+		],
+		"python.testing.unittestEnabled": false,
+		"python.testing.pytestEnabled": true
+	}
+}
